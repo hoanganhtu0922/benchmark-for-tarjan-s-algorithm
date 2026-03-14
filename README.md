@@ -26,6 +26,7 @@ In an undirected graph:
 
 ### 1. Requirements
 * A C++ compiler (GCC, Clang, or MSVC) supporting C++11 or higher.
+* A Python 3.x installed if you want to run python.
 
 ### 2. Standard Usage
 Compile the main logic:
@@ -36,6 +37,13 @@ Run the application (Input format: $N$ $M$ followed by $M$ edges):
 ```bash
 ./tarjan
 ```
+or 
+```bash
+python main.py
+```
+in python
+ 
+
 
 ### 3. Running Benchmarks
 The benchmark tool is designed to read from your `datasets/` folder. It separates **Load Time** from **Algorithm Time** to give you a precise look at performance.
@@ -44,12 +52,16 @@ The benchmark tool is designed to read from your `datasets/` folder. It separate
 ```bash
 g++ benchmark.cpp -o benchmark -O3
 ```
-
 **Execution:**
 To test with a specific dataset (e.g., `dataset_1000.txt`), pass the suffix as an argument:
 ```bash
 ./benchmark 1000
 ```
+or 
+```bash
+python benchmark.py 1000
+```
+in python
 
 ---
 
@@ -61,14 +73,14 @@ To test with a specific dataset (e.g., `dataset_1000.txt`), pass the suffix as a
 | **Space Complexity** | $O(V + E)$ |
 | **Recursion Depth** | $O(V)$ |
 
-### Results on my old computer
+### Results on my old computer (C++)
 | Dataset | Nodes ($V$) | Edges ($E$) | Algorithm Time |
 | :--- | :--- | :--- | :--- |
 | `dataset_100` | 100 | ~300 | < 0.01 ms |
 | `dataset_1000` | 1,000 | ~5,000 | ~0.15 ms |
 | `dataset_100000` | 100,000 | ~500,000 | ~25.00 ms |
 
-> **Note:** Performance may vary based on graph density (the ratio of $E$ to $V$).
+> **Note:** Performance may vary based on the computer.
 
 ---
 
