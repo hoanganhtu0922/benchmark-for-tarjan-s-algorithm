@@ -60,7 +60,7 @@ To test with a specific dataset (e.g., `dataset_1000.txt`), pass the suffix as a
 
 ---
 
-## 📊 Performance & Complexity
+## Performance & Complexity
 
 | Metric | Complexity |
 | :--- | :--- |
@@ -68,9 +68,7 @@ To test with a specific dataset (e.g., `dataset_1000.txt`), pass the suffix as a
 | **Space Complexity** | $O(V + E)$ |
 | **Recursion Depth** | $O(V)$ |
 
-### 📈 Example Results
-Using a standard machine, you can expect the following scaling behavior:
-
+### Results on my old computer
 | Dataset | Nodes ($V$) | Edges ($E$) | Algorithm Time |
 | :--- | :--- | :--- | :--- |
 | `dataset_100` | 100 | ~300 | < 0.01 ms |
