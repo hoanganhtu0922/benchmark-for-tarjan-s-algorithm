@@ -79,7 +79,7 @@ To test with a specific dataset (e.g., `dataset_1000.txt`), pass the suffix as a
 
 ---
 
-## 📂 Dataset Format
+## Dataset Format
 To ensure your custom datasets work with the benchmark tool, they should follow this format:
 ```text
 [N: Number of vertices] [M: Number of edges]
