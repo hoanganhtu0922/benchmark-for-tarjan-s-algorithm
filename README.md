@@ -14,7 +14,7 @@ In an undirected graph:
 This implementation utilizes a single-pass **DFS (Depth First Search)** traversal based on **Tarjan's approach**. By maintaining two auxiliary arrays—`num[]` (discovery time) and `low[]` (lowest reachable discovery time)—we can identify these critical elements in a single linear scan.
 ---
 
-## ✨ Features
+## Features
 * **Linear Efficiency:** Runs in $O(V + E)$ time, making it ideal for large-scale graphs ($N \ge 3 \cdot 10^5$).
 * **Dataset-Ready Benchmarking:** Built-in support to run performance tests against external text-based datasets.
 * **Disconnected Support:** Correctly handles graphs with multiple separate components.
