@@ -1,11 +1,9 @@
 # Bridges & Articulation Points (C++)
 
 ## Introduction
-This repository provides an efficient, standard C++ implementation for identifying critical points of failure in undirected graphs: **Articulation Points** (Cut Vertices) and **Bridges** (Cut Edges).
----
+* This repository provides an efficient, standard C++ implementation for identifying critical points of failure in undirected graphs: **Articulation Points** (Cut Vertices) and **Bridges** (Cut Edges).
 
 ## Core Concepts
-
 In an undirected graph:
 * **Articulation Point:** A vertex whose removal increases the number of connected components.
 * **Bridge:** An edge whose removal increases the number of connected components.
