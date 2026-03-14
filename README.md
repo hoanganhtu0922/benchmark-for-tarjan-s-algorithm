@@ -37,11 +37,11 @@ This implementation utilizes a single-pass **DFS (Depth First Search)** traversa
 ### 2. Standard Usage
 Compile the main logic:
 ```bash
-g++ main.cpp -o GraphApp -O3
+g++ main.cpp -o tarjan -O3
 ```
 Run the application (Input format: $N$ $M$ followed by $M$ edges):
 ```bash
-./GraphApp
+./tarjan
 ```
 
 ### 3. Running Benchmarks
