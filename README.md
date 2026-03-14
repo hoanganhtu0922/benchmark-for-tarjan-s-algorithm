@@ -10,10 +10,6 @@ In an undirected graph:
 * **Articulation Point:** A vertex whose removal increases the number of connected components.
 * **Bridge:** An edge whose removal increases the number of connected components.
 
-### The Algorithm
-This implementation utilizes a single-pass **DFS (Depth First Search)** traversal based on **Tarjan's approach**. By maintaining two auxiliary arrays—`num[]` (discovery time) and `low[]` (lowest reachable discovery time)—we can identify these critical elements in a single linear scan.
----
-
 ## Features
 * **Linear Efficiency:** Runs in $O(V + E)$ time, making it ideal for large-scale graphs ($N \ge 3 \cdot 10^5$).
 * **Dataset-Ready Benchmarking:** Built-in support to run performance tests against external text-based datasets.
@@ -22,7 +18,6 @@ This implementation utilizes a single-pass **DFS (Depth First Search)** traversa
 ---
 
 ## Code Structure
-
 * `main.cpp`: The core algorithm implementation and entry point for basic usage.
 * `benchmark.cpp`: A performance-testing utility that measures execution time and accuracy using your local datasets.
 * `datasets/`: Directory containing your graph data files (e.g., `dataset_100.txt`, `dataset_1000.txt`).
